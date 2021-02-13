@@ -1,4 +1,6 @@
 const http = require('http');
+const cfg = require('./config');
+
 
 function requestHandler (req, res) {
 	const respond = msg => {
@@ -16,7 +18,7 @@ function requestHandler (req, res) {
 
 const server = http.createServer(requestHandler)
 
-const [port, host] = [3000, '127.0.0.1'];
-server.listen(port, host, () => {
-	console.log(`Server is running at ${host}:${port}`)
+
+server.listen(cfg.port, cfg.host, () => {
+	console.log(`Server is running at ${cfg.host}:${cfg.port}`)
 })
