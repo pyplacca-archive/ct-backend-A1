@@ -1,0 +1,23 @@
+{
+  "name": "first-backend",
+  "version": "1.0.0",
+  "description": "First backend assignment with 4 routes and 3 reqeust methods",
+  "main": "express.index.js",
+  "scripts": {
+    "start": "nodemon http.index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "http"
+  ],
+  "author": "pyplacca",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
