@@ -1,10 +1,12 @@
 {
   "name": "first-backend",
   "version": "1.0.0",
-  "description": "First backend assignment with 4 routes and 3 reqeust methods",
+  "description": "First backend assignment with 4 routes and 3 request methods each.",
   "main": "express.index.js",
   "scripts": {
-    "start": "nodemon http.index.js",
+    "start": "node .",
+    "start-http": "nodemon http.index.js",
+    "start-express": "nodemon express.index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
